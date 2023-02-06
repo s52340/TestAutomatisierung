@@ -1,4 +1,4 @@
-package org.campus02.rectanlge;
+package org.campus02.rectangle;
 
 public class Rectangle {
     // Rechteck

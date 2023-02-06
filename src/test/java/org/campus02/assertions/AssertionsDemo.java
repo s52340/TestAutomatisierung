@@ -48,7 +48,8 @@ public class AssertionsDemo {
         int[] array = new int[1];  // standartmäßig Stelle 0 = 0
 
        // int i = array[1]; brauche ich wegen Zeile unten nicht
-        Assertions.assertThrows(ArrayIndexOutOfBoundsException.class, () -> { int i = array[1];});  // NICHT Prüfungsrelevant!!   }
+        Assertions.assertThrows(ArrayIndexOutOfBoundsException.class, () -> { int i = array[1];});  // NICHT Prüfungsrelevant!!
+    }
 
     // 4.Step tear - down
     @AfterEach
